@@ -1811,6 +1811,8 @@ type
 
   // ----- Event prototypes:
 
+  TImageIndex = VCL.ImgList.TImageIndex;
+
   // node enumeration
   TVTGetNodeProc = reference to procedure(Sender: TBaseVirtualTree; Node: PVirtualNode; Data: Pointer; var Abort: Boolean);
   // node events
