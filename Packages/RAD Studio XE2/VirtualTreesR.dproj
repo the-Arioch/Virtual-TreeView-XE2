@@ -3,7 +3,7 @@
 			<ProjectGuid>{B62F3689-96E1-47D5-9FB2-2A2718281FDB}</ProjectGuid>
 			<MainSource>VirtualTreesR.dpk</MainSource>
 			<Base>True</Base>
-			<Config Condition="'$(Config)'==''">Debug</Config>
+			<Config Condition="'$(Config)'==''">Release</Config>
 			<AppType>Package</AppType>
 			<FrameworkType>VCL</FrameworkType>
 			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
@@ -50,7 +50,7 @@
 			<DCC_HppOutput>..\..\Source</DCC_HppOutput>
 			<DCC_OutputNeverBuildDcps>true</DCC_OutputNeverBuildDcps>
 			<DCC_CBuilderOutput>All</DCC_CBuilderOutput>
-			<DllSuffix>17</DllSuffix>
+			<DllSuffix>16</DllSuffix>
 			<RuntimeOnlyPackage>true</RuntimeOnlyPackage>
 			<DCC_UnitSearchPath>..\..\source;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
 			<DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
@@ -90,7 +90,6 @@
 			<DCC_RemoteDebug>true</DCC_RemoteDebug>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
-			<DllSuffix>16</DllSuffix>
 			<DCC_TypedAtParameter>true</DCC_TypedAtParameter>
 			<DCC_OutputNeverBuildDcps>true</DCC_OutputNeverBuildDcps>
 		</PropertyGroup>
